@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Webpage!!</title>
+    </head>
+<body class = "body">
+<h1>Welcome to my new webpage</h1>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCvHFaBH2OQ5Q7jjYwX6nXV3gcK-wKD9iA",
+      authDomain: "excelsior-db491.firebaseapp.com",
+      projectId: "excelsior-db491",
+      storageBucket: "excelsior-db491.appspot.com",
+      messagingSenderId: "260823080666",
+      appId: "1:260823080666:web:9b2e17ae2c2fb31e118fe3",
+      measurementId: "G-4WTJVNPD8J"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+</body>
+</html>
